@@ -7,7 +7,7 @@
 
 # 示例
 HTML部分：
-# <div>
+```
 <div class="list-box">
             <ul>
               <li data-pname="账号相关">
@@ -19,6 +19,6 @@ HTML部分：
               </ul>
           </div>
         </div>
-# </div>
+```
 js部分：
 lookMore.toggleAll('.list-box ul li','div',2);
