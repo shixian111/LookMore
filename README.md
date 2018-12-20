@@ -7,7 +7,8 @@
 
 # 示例
 HTML部分：
-# <div class="list-box">
+# 
+<div class="list-box">
             <ul>
               <li data-pname="账号相关">
                 <div class="content  content-description" data-ptype="">1.手机注册、找回密码等相关问题<a class="action" href="#/add_workorder_add?type=11">点击提问</a></div>
@@ -17,6 +18,7 @@ HTML部分：
               </li>
               </ul>
           </div>
-#         </div>
+        </div>
+ #
 js部分：
 lookMore.toggleAll('.list-box ul li','div',2);
